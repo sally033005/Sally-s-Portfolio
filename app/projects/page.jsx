@@ -14,12 +14,12 @@ import SliderBtns from '@/components/SliderBtns';
 const myProjects = [
   {
     num: '01',
-    category: 'Recipe Sharing Website',
-    title: 'Bare Bakes',
-    description: 'A recipe sharing website that allows users to browse baking recipes.',
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: '/assets/projects/project_barebakes.png',
-    demo: "https://cpan144-group7.vercel.app",
+    category: 'Flask Web Game',
+    title: 'Tic Tac Toe',
+    description: 'A modern Tic Tac Toe game built with Flask, featuring both Single-Player (AI) and Online Two-Player modes. Includes live updates, room codes, disconnection detection, win tracking, and a Minimax-powered AI with 3 difficulty levels.',
+    stack: [{ name: "Flask" }, { name: "Python" }, { name: "Minimax AI" }],
+    image: '/assets/projects/project_tictactoe_home.png',
+    demo: "https://flask-tictactoe.onrender.com/",
   },
   {
     num: '02',
@@ -32,12 +32,12 @@ const myProjects = [
   },
   {
     num: '03',
-    category: 'Flask Web Game',
-    title: 'Tic Tac Toe',
-    description: 'A modern Tic Tac Toe game built with Flask, featuring both Single-Player (AI) and Online Two-Player modes. Includes live updates, room codes, disconnection detection, win tracking, and a Minimax-powered AI with 3 difficulty levels.',
-    stack: [{ name: "Flask" }, { name: "Python" }, { name: "Minimax AI" }],
-    image: '/assets/projects/project_tictactoe1.png',
-    demo: "https://flask-tictactoe.onrender.com/",
+    category: 'Travel Planning App',
+    title: 'TripWise',
+    description: 'A travel planning application that helps users organize their trips efficiently. Built with React and Springboot. It features itinerary management, budget and expenses tracking, upload reservation documents. It supports real-time collaboration, users can create and share their travel plans by invite collaborators and can edit the plans together.',
+    stack: [{ name: "Spring Boot" }, { name: "Java" }, { name: "React" }, { name: "Next.js" }],
+    image: '/assets/projects/project_tripwise_home.png',
+    demo: "https://tripwise-five.vercel.app",
   },
 ]
 
